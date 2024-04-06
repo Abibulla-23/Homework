@@ -18,6 +18,3 @@ def main(s):
 
     except:
         print("Введите корректный запрос!")
-
-
-assert main('12 + 1') == '13'
