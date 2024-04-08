@@ -5,6 +5,8 @@ def main(s):
         a = int(se[0])
         b = int(se[2])
         c = se[1]
+        if len(se) != 3:
+            privet
         if c == '+' or '-' or '*' or '/':
             if c == '+' and 0 <= a <= 10 and 0 <= b <= 10:
                 f = str(a + b)
